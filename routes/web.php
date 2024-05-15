@@ -26,6 +26,10 @@ Route::get('demo-job-queue',function(){
     return 'Demo Graqpql ';
 });
 
+Route::get('demo-heroku',function(){
+    return 'Demo heroku ok ok ';
+});
+
 Route::get('/demo-markdown-converter', function () {
     $markdown = "# Hello World. I am Khang Dev Ne ne OK ok nha\n\nThis is a simple markdown file.";
     return \Illuminate\Support\Str::of($markdown)->markdown();
